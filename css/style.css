@@ -13,8 +13,15 @@ body {
   font-family: Open Sans;
 }
 
-h1, h2, h3, h4 {
+h1, {
   font-family: Poppins;
+  margin-top: 120px;
+  margin-bottom: 0;
+}
+
+p {
+  margin-top: 16px;
+  margin-bottom: 48px;
 }
 
 a {
@@ -41,12 +48,12 @@ a {
 }
 
 i {
-  font-size: 32px;
+  font-size: 40px;
   color: rgb(230, 230, 230);
   padding: 8px;
 }
 
-.fa-heart {
-color: #d63447;
-
+.footer .fas {
+  color: #0779e4;
 }
+

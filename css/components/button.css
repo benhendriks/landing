@@ -1,10 +1,15 @@
 .btn-primary     {
   color: #f7f7f7;
-  border: 1px solid #999999;
+  border: 1px solid #f7f7f7;
   padding: 10px 15px;
   border-radius: 50px;
+  font-family: 'Cabin', sans-serif;
   font-weight: bold;
+  font-size: 32px;
   opacity: 1;
+  position: relative;
+  left: 240px;
+
 }
 
 .btn-primary:hover   {

@@ -1,26 +1,31 @@
 .banner     {
+  background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(../../images/background.jpg);
   background-size: cover;
   background-position: center;
-  padding: 200px 0;
+  padding: 8px 0px 320px 0;
   display: flex;
   align-items: center;
 }
 
 .banner h1   {
-  font-size: 50px;
+  font-family: 'Courgette', cursive;
+  font-size: 90px;
   font-weight: bolder;
-  color: #f7f7f7;
+  color: #dae1e7;
   text-shadow: 2px 3px 4px grey
 }
 
 .banner p   {
-  font-size: 30px;
+  font-family: 'Cabin', sans-serif;
+  font-size: 50px;
   font-weight: lighter;
-  color: #f7f7f7;
-  text-shadow: 2px 3px 4px grey
+  color: #dae1e7;
+  text-shadow: 1px 2px 3px grey
 }
 
 .container {
-  width: 800px;
+  width: 1000px;
   margin: auto;
 }
+
+
